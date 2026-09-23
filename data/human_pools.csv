@@ -1,0 +1,483 @@
+system,trainer,pool,n_human,n_generated,auroc,in_corpus
+clam,artifactbench,FMC: MusicCaps 10 s,1102,3614,0.6589668932172424,False
+clam,artifactbench,Echoes: FMA 30 s,59,3614,0.742160899702663,False
+clam,artifactbench,SONICS: YouTube full,2500,3614,0.8004120641947979,False
+clam,artifactbench,AB: FMA mp3 30 s,148,3614,0.7409155835414828,True
+clam,artifactbench,AB: MoM YouTube,347,3614,0.8683418151313576,True
+clam,artifactbench,AB: SONICS YouTube,294,3614,0.8544191334530491,True
+clam,artifactbench,AB: YouTube lossless,73,3614,0.840775219655677,True
+clam,echoes,FMC: MusicCaps 10 s,1102,3614,0.623354980681098,False
+clam,echoes,Echoes: FMA 30 s,59,3614,0.601793402305535,True
+clam,echoes,SONICS: YouTube full,2500,3614,0.5079990592141671,False
+clam,echoes,AB: FMA mp3 30 s,148,3614,0.6421910288816762,False
+clam,echoes,AB: MoM YouTube,347,3614,0.4611565015334219,False
+clam,echoes,AB: SONICS YouTube,294,3614,0.46353560793437465,False
+clam,echoes,AB: YouTube lossless,73,3614,0.2979205676554647,False
+clam,fakemusiccaps,FMC: MusicCaps 10 s,1102,3614,0.4911784379560431,True
+clam,fakemusiccaps,Echoes: FMA 30 s,59,3614,0.7252867849136597,False
+clam,fakemusiccaps,SONICS: YouTube full,2500,3614,0.7403824017708909,False
+clam,fakemusiccaps,AB: FMA mp3 30 s,148,3614,0.6075771399512406,False
+clam,fakemusiccaps,AB: MoM YouTube,347,3614,0.7948404300279572,False
+clam,fakemusiccaps,AB: SONICS YouTube,294,3614,0.783579729622895,False
+clam,fakemusiccaps,AB: YouTube lossless,73,3614,0.7789153292750415,False
+clam,sonics,FMC: MusicCaps 10 s,1102,3614,0.5779018276374294,False
+clam,sonics,Echoes: FMA 30 s,59,3614,0.7740613246039413,False
+clam,sonics,SONICS: YouTube full,2500,3614,0.777716491422247,True
+clam,sonics,AB: FMA mp3 30 s,148,3614,0.7587871490749188,False
+clam,sonics,AB: MoM YouTube,155,3614,0.8469214702679544,False
+clam,sonics,AB: SONICS YouTube,294,3614,0.8145910273351178,False
+clam,sonics,AB: YouTube lossless,73,3614,0.8247492627604976,False
+comoe_xcodec,artifactbench,FMC: MusicCaps 10 s,1102,3614,0.7024816277091408,False
+comoe_xcodec,artifactbench,Echoes: FMA 30 s,59,3614,0.8005496515434327,False
+comoe_xcodec,artifactbench,SONICS: YouTube full,2500,3614,0.8862418372993914,False
+comoe_xcodec,artifactbench,AB: FMA mp3 30 s,148,3614,0.746638448077297,True
+comoe_xcodec,artifactbench,AB: MoM YouTube,347,3614,0.8965000023922338,True
+comoe_xcodec,artifactbench,AB: SONICS YouTube,294,3614,0.8997455097146773,True
+comoe_xcodec,artifactbench,AB: YouTube lossless,73,3614,0.8731606916784802,True
+comoe_xcodec,echoes,FMC: MusicCaps 10 s,1102,3614,0.6848805612776288,False
+comoe_xcodec,echoes,Echoes: FMA 30 s,59,3614,0.8238441841051278,True
+comoe_xcodec,echoes,SONICS: YouTube full,2500,3614,0.8206154399557276,False
+comoe_xcodec,echoes,AB: FMA mp3 30 s,148,3614,0.7911771414469257,False
+comoe_xcodec,echoes,AB: MoM YouTube,347,3614,0.8289082323146139,False
+comoe_xcodec,echoes,AB: SONICS YouTube,294,3614,0.8356241223661574,False
+comoe_xcodec,echoes,AB: YouTube lossless,73,3614,0.7805907013061837,False
+comoe_xcodec,fakemusiccaps,FMC: MusicCaps 10 s,1102,3614,0.5640785431127386,True
+comoe_xcodec,fakemusiccaps,Echoes: FMA 30 s,59,3614,0.4442610188250964,False
+comoe_xcodec,fakemusiccaps,SONICS: YouTube full,2500,3614,0.6777275041505257,False
+comoe_xcodec,fakemusiccaps,AB: FMA mp3 30 s,148,3614,0.4606784426928312,False
+comoe_xcodec,fakemusiccaps,AB: MoM YouTube,347,3614,0.6838272233022715,False
+comoe_xcodec,fakemusiccaps,AB: SONICS YouTube,294,3614,0.6611467497901208,False
+comoe_xcodec,fakemusiccaps,AB: YouTube lossless,73,3614,0.6985164239525135,False
+comoe_xcodec,sonics,FMC: MusicCaps 10 s,1102,3614,0.4647825506173311,False
+comoe_xcodec,sonics,Echoes: FMA 30 s,59,3614,0.5669430557249115,False
+comoe_xcodec,sonics,SONICS: YouTube full,2500,3614,0.5575043165467626,True
+comoe_xcodec,sonics,AB: FMA mp3 30 s,148,3614,0.45227175847679446,False
+comoe_xcodec,sonics,AB: MoM YouTube,155,3614,0.5209222200403449,False
+comoe_xcodec,sonics,AB: SONICS YouTube,294,3614,0.5402539820576819,False
+comoe_xcodec,sonics,AB: YouTube lossless,73,3614,0.5565059017064535,False
+fst_mert,artifactbench,FMC: MusicCaps 10 s,1102,3614,0.8464082008161445,False
+fst_mert,artifactbench,Echoes: FMA 30 s,59,3614,0.9611398234736852,False
+fst_mert,artifactbench,SONICS: YouTube full,2500,3614,0.980186386275595,False
+fst_mert,artifactbench,AB: FMA mp3 30 s,150,3614,0.9296126175982291,True
+fst_mert,artifactbench,AB: MoM YouTube,347,3614,0.9886081823966675,True
+fst_mert,artifactbench,AB: SONICS YouTube,294,3614,0.9846524664099174,True
+fst_mert,artifactbench,AB: YouTube lossless,73,3614,0.9538969456679124,True
+fst_mert,echoes,FMC: MusicCaps 10 s,1102,3614,0.880350236075275,False
+fst_mert,echoes,Echoes: FMA 30 s,59,3614,0.9762880699351861,True
+fst_mert,echoes,SONICS: YouTube full,2500,3614,0.946862368566685,False
+fst_mert,echoes,AB: FMA mp3 30 s,150,3614,0.9789061058845232,False
+fst_mert,echoes,AB: MoM YouTube,347,3614,0.9807616553620329,False
+fst_mert,echoes,AB: SONICS YouTube,294,3614,0.9822073267602558,False
+fst_mert,echoes,AB: YouTube lossless,73,3614,0.9510996050367293,False
+fst_mert,fakemusiccaps,FMC: MusicCaps 10 s,1102,3614,0.638832198236943,True
+fst_mert,fakemusiccaps,Echoes: FMA 30 s,59,3614,0.6816617110483713,False
+fst_mert,fakemusiccaps,SONICS: YouTube full,2500,3614,0.8723062534587716,False
+fst_mert,fakemusiccaps,AB: FMA mp3 30 s,150,3614,0.6378730861464674,False
+fst_mert,fakemusiccaps,AB: MoM YouTube,347,3614,0.33882802868766837,False
+fst_mert,fakemusiccaps,AB: SONICS YouTube,294,3614,0.3627135967834837,False
+fst_mert,fakemusiccaps,AB: YouTube lossless,73,3614,0.37898279900842236,False
+fst_mert,sonics,FMC: MusicCaps 10 s,1102,3614,0.5089889138528629,False
+fst_mert,sonics,Echoes: FMA 30 s,59,3614,0.7435772372975153,False
+fst_mert,sonics,SONICS: YouTube full,2500,3614,0.8494514665190923,True
+fst_mert,sonics,AB: FMA mp3 30 s,150,3614,0.6339955727725513,False
+fst_mert,sonics,AB: MoM YouTube,155,3614,0.5699430530017673,False
+fst_mert,sonics,AB: SONICS YouTube,294,3614,0.5412238498055559,False
+fst_mert,sonics,AB: YouTube lossless,73,3614,0.5067621350759224,False
+muq_fst,artifactbench,FMC: MusicCaps 10 s,1102,3614,0.8660299179335855,False
+muq_fst,artifactbench,Echoes: FMA 30 s,59,3614,0.9282451483402586,False
+muq_fst,artifactbench,SONICS: YouTube full,2500,3614,0.9378193137797455,False
+muq_fst,artifactbench,AB: FMA mp3 30 s,150,3614,0.9417173953145175,True
+muq_fst,artifactbench,AB: MoM YouTube,347,3614,0.9643485389033042,True
+muq_fst,artifactbench,AB: SONICS YouTube,294,3614,0.9588232083093338,True
+muq_fst,artifactbench,AB: YouTube lossless,73,3614,0.9344975021036911,True
+muq_fst,echoes,FMC: MusicCaps 10 s,1102,3614,0.8764649874404538,False
+muq_fst,echoes,Echoes: FMA 30 s,59,3614,0.9857568964385207,True
+muq_fst,echoes,SONICS: YouTube full,2500,3614,0.9301237963475373,False
+muq_fst,echoes,AB: FMA mp3 30 s,150,3614,0.9687382401770891,False
+muq_fst,echoes,AB: MoM YouTube,347,3614,0.9517095700517839,False
+muq_fst,echoes,AB: SONICS YouTube,294,3614,0.9570293529697435,False
+muq_fst,echoes,AB: YouTube lossless,73,3614,0.9003456876227152,False
+muq_fst,fakemusiccaps,FMC: MusicCaps 10 s,1102,3614,0.5692213784465936,True
+muq_fst,fakemusiccaps,Echoes: FMA 30 s,59,3614,0.5780908519598923,False
+muq_fst,fakemusiccaps,SONICS: YouTube full,2500,3614,0.6846172661870503,False
+muq_fst,fakemusiccaps,AB: FMA mp3 30 s,150,3614,0.4911483121195352,False
+muq_fst,fakemusiccaps,AB: MoM YouTube,347,3614,0.368279617051205,False
+muq_fst,fakemusiccaps,AB: SONICS YouTube,294,3614,0.3908778785448878,False
+muq_fst,fakemusiccaps,AB: YouTube lossless,73,3614,0.39901524512739656,False
+muq_fst,sonics,FMC: MusicCaps 10 s,1102,3614,0.5084288565238833,False
+muq_fst,sonics,Echoes: FMA 30 s,59,3614,0.6234089651355839,False
+muq_fst,sonics,SONICS: YouTube full,2500,3614,0.6955617598229109,True
+muq_fst,sonics,AB: FMA mp3 30 s,150,3614,0.5671656520937097,False
+muq_fst,sonics,AB: MoM YouTube,155,3614,0.5229287537711766,False
+muq_fst,sonics,AB: SONICS YouTube,294,3614,0.5312974110507512,False
+muq_fst,sonics,AB: YouTube lossless,73,3614,0.48270045712639587,False
+fst_muq_frozen,artifactbench,FMC: MusicCaps 10 s,1102,3614,0.8391445296924543,False
+fst_muq_frozen,artifactbench,Echoes: FMA 30 s,59,3614,0.9055040192096648,False
+fst_muq_frozen,artifactbench,SONICS: YouTube full,2500,3614,0.9507072495849473,False
+fst_muq_frozen,artifactbench,AB: FMA mp3 30 s,150,3614,0.919770337576093,True
+fst_muq_frozen,artifactbench,AB: MoM YouTube,347,3614,0.935248608916015,True
+fst_muq_frozen,artifactbench,AB: SONICS YouTube,294,3614,0.9308556294681681,True
+fst_muq_frozen,artifactbench,AB: YouTube lossless,73,3614,0.9014487040504582,True
+fst_muq_frozen,echoes,FMC: MusicCaps 10 s,1102,3614,0.8498593140007051,False
+fst_muq_frozen,echoes,Echoes: FMA 30 s,59,3614,0.987600011255663,True
+fst_muq_frozen,echoes,SONICS: YouTube full,2500,3614,0.9379705035971222,False
+fst_muq_frozen,echoes,AB: FMA mp3 30 s,150,3614,0.9676203652462646,False
+fst_muq_frozen,echoes,AB: MoM YouTube,347,3614,0.9561208492749139,False
+fst_muq_frozen,echoes,AB: SONICS YouTube,294,3614,0.9594321403160047,False
+fst_muq_frozen,echoes,AB: YouTube lossless,73,3614,0.8968395357475875,False
+fst_muq_frozen,fakemusiccaps,FMC: MusicCaps 10 s,1102,3614,0.5809518237706359,True
+fst_muq_frozen,fakemusiccaps,Echoes: FMA 30 s,59,3614,0.5948570999784267,False
+fst_muq_frozen,fakemusiccaps,SONICS: YouTube full,2500,3614,0.7167842280022135,False
+fst_muq_frozen,fakemusiccaps,AB: FMA mp3 30 s,150,3614,0.4976489577568714,False
+fst_muq_frozen,fakemusiccaps,AB: MoM YouTube,347,3614,0.36733548209093997,False
+fst_muq_frozen,fakemusiccaps,AB: SONICS YouTube,294,3614,0.38505114275926194,False
+fst_muq_frozen,fakemusiccaps,AB: YouTube lossless,73,3614,0.37527196367247617,False
+fst_muq_frozen,sonics,FMC: MusicCaps 10 s,1102,3614,0.465275692331797,False
+fst_muq_frozen,sonics,Echoes: FMA 30 s,59,3614,0.4354042189976832,False
+fst_muq_frozen,sonics,SONICS: YouTube full,2500,3614,0.4372252905368013,True
+fst_muq_frozen,sonics,AB: FMA mp3 30 s,150,3614,0.41502398081534775,False
+fst_muq_frozen,sonics,AB: MoM YouTube,155,3614,0.37796561758037733,False
+fst_muq_frozen,sonics,AB: SONICS YouTube,294,3614,0.38545866603420553,False
+fst_muq_frozen,sonics,AB: YouTube lossless,73,3614,0.4921917050132287,False
+musicdet,artifactbench,FMC: MusicCaps 10 s,1102,3614,0.6206818713673484,False
+musicdet,artifactbench,Echoes: FMA 30 s,59,3614,0.6505890463639519,False
+musicdet,artifactbench,SONICS: YouTube full,2500,3614,0.6977044825677918,False
+musicdet,artifactbench,AB: FMA mp3 30 s,148,3614,0.6681056402279424,True
+musicdet,artifactbench,AB: MoM YouTube,347,3614,0.7267367219060044,True
+musicdet,artifactbench,AB: SONICS YouTube,294,3614,0.7094876688915742,True
+musicdet,artifactbench,AB: YouTube lossless,73,3614,0.6640575842803101,True
+musicdet,echoes,FMC: MusicCaps 10 s,1102,3614,0.5704433102966182,False
+musicdet,echoes,Echoes: FMA 30 s,59,3614,0.6911070882537776,True
+musicdet,echoes,SONICS: YouTube full,2500,3614,0.6877102933038186,False
+musicdet,echoes,AB: FMA mp3 30 s,148,3614,0.6671110097369091,False
+musicdet,echoes,AB: MoM YouTube,347,3614,0.7094360866881755,False
+musicdet,echoes,AB: SONICS YouTube,294,3614,0.702838357257679,False
+musicdet,echoes,AB: YouTube lossless,73,3614,0.6250236902153725,False
+musicdet,fakemusiccaps,FMC: MusicCaps 10 s,1102,3614,0.7180789920625276,True
+musicdet,fakemusiccaps,Echoes: FMA 30 s,59,3614,0.745593876919325,False
+musicdet,fakemusiccaps,SONICS: YouTube full,2500,3614,0.7378730492529053,False
+musicdet,fakemusiccaps,AB: FMA mp3 30 s,148,3614,0.7461616984998279,False
+musicdet,fakemusiccaps,AB: MoM YouTube,347,3614,0.770051305442013,False
+musicdet,fakemusiccaps,AB: SONICS YouTube,294,3614,0.7728071859623762,False
+musicdet,fakemusiccaps,AB: YouTube lossless,73,3614,0.7218977189165423,False
+musicdet,sonics,FMC: MusicCaps 10 s,1102,3614,0.6081480620334111,False
+musicdet,sonics,Echoes: FMA 30 s,59,3614,0.6998302270830011,False
+musicdet,sonics,SONICS: YouTube full,2500,3614,0.7298360265633647,True
+musicdet,sonics,AB: FMA mp3 30 s,148,3614,0.6930695568285496,False
+musicdet,sonics,AB: MoM YouTube,155,3614,0.7680275630612136,False
+musicdet,sonics,AB: SONICS YouTube,294,3614,0.7494395378516654,False
+musicdet,sonics,AB: YouTube lossless,73,3614,0.6212635792314516,False
+sofia_vag,artifactbench,FMC: MusicCaps 10 s,1102,3614,0.577248113557179,False
+sofia_vag,artifactbench,Echoes: FMA 30 s,59,3614,0.7455985667789107,False
+sofia_vag,artifactbench,SONICS: YouTube full,2500,3614,0.9214712783619259,False
+sofia_vag,artifactbench,AB: FMA mp3 30 s,150,3614,0.7745858697657259,True
+sofia_vag,artifactbench,AB: MoM YouTube,347,3614,0.943221924344807,True
+sofia_vag,artifactbench,AB: SONICS YouTube,294,3614,0.9017285386761235,True
+sofia_vag,artifactbench,AB: YouTube lossless,73,3614,0.8551333853886333,True
+sofia_vag,echoes,FMC: MusicCaps 10 s,1102,3614,0.8130048801946854,False
+sofia_vag,echoes,Echoes: FMA 30 s,59,3614,0.9560325663849625,True
+sofia_vag,echoes,SONICS: YouTube full,2500,3614,0.9207405091311566,False
+sofia_vag,echoes,AB: FMA mp3 30 s,150,3614,0.9473178380372624,False
+sofia_vag,echoes,AB: MoM YouTube,347,3614,0.9325374105503892,False
+sofia_vag,echoes,AB: SONICS YouTube,294,3614,0.9185579323040782,False
+sofia_vag,echoes,AB: YouTube lossless,73,3614,0.8441032211112038,False
+sofia_vag,fakemusiccaps,FMC: MusicCaps 10 s,1102,3614,0.5862764486163408,True
+sofia_vag,fakemusiccaps,Echoes: FMA 30 s,59,3614,0.662311350398169,False
+sofia_vag,fakemusiccaps,SONICS: YouTube full,2500,3614,0.8764996679579413,False
+sofia_vag,fakemusiccaps,AB: FMA mp3 30 s,150,3614,0.5996891717395314,False
+sofia_vag,fakemusiccaps,AB: MoM YouTube,347,3614,0.8877898789370189,False
+sofia_vag,fakemusiccaps,AB: SONICS YouTube,294,3614,0.8650599143918773,False
+sofia_vag,fakemusiccaps,AB: YouTube lossless,73,3614,0.7669602989894702,False
+sofia_vag,sonics,FMC: MusicCaps 10 s,1102,3614,0.33552807342287555,False
+sofia_vag,sonics,Echoes: FMA 30 s,59,3614,0.3010631911680564,False
+sofia_vag,sonics,SONICS: YouTube full,2500,3614,0.60320907581627,True
+sofia_vag,sonics,AB: FMA mp3 30 s,150,3614,0.36329828444936363,False
+sofia_vag,sonics,AB: MoM YouTube,155,3614,0.6493814377778174,False
+sofia_vag,sonics,AB: SONICS YouTube,294,3614,0.623642373385436,False
+sofia_vag,sonics,AB: YouTube lossless,73,3614,0.5594605453677102,False
+sofia_vag_released,sonics,FMC: MusicCaps 10 s,1102,3614,0.8089223999831268,False
+sofia_vag_released,sonics,Echoes: FMA 30 s,59,3614,0.85055058951535,False
+sofia_vag_released,sonics,SONICS: YouTube full,2500,3614,0.8712677365799669,True
+sofia_vag_released,sonics,AB: FMA mp3 30 s,150,3614,0.8292270798745618,False
+sofia_vag_released,sonics,AB: MoM YouTube,155,3614,0.8494010746737597,False
+sofia_vag_released,sonics,AB: SONICS YouTube,294,3614,0.8767637381460609,False
+sofia_vag_released,sonics,AB: YouTube lossless,73,3614,0.8962065331928345,False
+specttra,artifactbench,FMC: MusicCaps 10 s,1102,3614,0.6491988455863816,False
+specttra,artifactbench,Echoes: FMA 30 s,59,3614,0.7547625524091808,False
+specttra,artifactbench,SONICS: YouTube full,2500,3614,0.7948316546762589,False
+specttra,artifactbench,AB: FMA mp3 30 s,148,3614,0.7458139517492036,True
+specttra,artifactbench,AB: MoM YouTube,347,3614,0.8482263180809819,True
+specttra,artifactbench,AB: SONICS YouTube,294,3614,0.8385304315417368,True
+specttra,artifactbench,AB: YouTube lossless,73,3614,0.840020923198217,True
+specttra,echoes,FMC: MusicCaps 10 s,1102,3614,0.6679667295062457,False
+specttra,echoes,Echoes: FMA 30 s,59,3614,0.8215180137506684,True
+specttra,echoes,SONICS: YouTube full,2500,3614,0.7030424460431655,False
+specttra,echoes,AB: FMA mp3 30 s,148,3614,0.8123738015824348,False
+specttra,echoes,AB: MoM YouTube,347,3614,0.8283213376095844,False
+specttra,echoes,AB: SONICS YouTube,294,3614,0.8322255853088328,False
+specttra,echoes,AB: YouTube lossless,73,3614,0.7333941066325022,False
+specttra,fakemusiccaps,FMC: MusicCaps 10 s,1102,3614,0.47407088987472595,True
+specttra,fakemusiccaps,Echoes: FMA 30 s,59,3614,0.34189076379053207,False
+specttra,fakemusiccaps,SONICS: YouTube full,2500,3614,0.5546571665744328,False
+specttra,fakemusiccaps,AB: FMA mp3 30 s,148,3614,0.4114180589000733,False
+specttra,fakemusiccaps,AB: MoM YouTube,347,3614,0.4075896011189275,False
+specttra,fakemusiccaps,AB: SONICS YouTube,294,3614,0.4299078790342922,False
+specttra,fakemusiccaps,AB: YouTube lossless,73,3614,0.35678411959578804,False
+specttra,sonics,FMC: MusicCaps 10 s,1102,3614,0.244702492926781,False
+specttra,sonics,Echoes: FMA 30 s,59,3614,0.24615197021001192,False
+specttra,sonics,SONICS: YouTube full,2500,3614,0.3936926950747095,True
+specttra,sonics,AB: FMA mp3 30 s,148,3614,0.20137621711362716,False
+specttra,sonics,AB: MoM YouTube,155,3614,0.2804148740560901,False
+specttra,sonics,AB: SONICS YouTube,294,3614,0.2761106656276235,False
+specttra,sonics,AB: YouTube lossless,73,3614,0.2525812858669861,False
+specttra_released,sonics,FMC: MusicCaps 10 s,1102,3614,0.6392803947544184,False
+specttra_released,sonics,Echoes: FMA 30 s,59,3614,0.7005759147571122,False
+specttra_released,sonics,AB: FMA mp3 30 s,150,3614,0.6846098505810736,False
+specttra_released,sonics,AB: MoM YouTube,155,3614,0.6773265258760733,False
+specttra_released,sonics,AB: SONICS YouTube,294,3614,0.6370200542862413,False
+specttra_released,sonics,AB: YouTube lossless,73,3614,0.6005336931719113,False
+fingerprint,artifactbench,FMC: MusicCaps 10 s,1102,3614,0.758432371790687,False
+fingerprint,artifactbench,Echoes: FMA 30 s,59,3614,0.7229981334358849,False
+fingerprint,artifactbench,SONICS: YouTube full,6882,3614,0.7861203090374592,False
+fingerprint,artifactbench,AB: FMA mp3 30 s,150,3614,0.7690739715919572,True
+fingerprint,artifactbench,AB: MoM YouTube,347,3614,0.7854174208848395,True
+fingerprint,artifactbench,AB: SONICS YouTube,294,3614,0.7745351599411209,True
+fingerprint,artifactbench,AB: YouTube lossless,73,3614,0.7658459112583484,True
+fingerprint,echoes,FMC: MusicCaps 10 s,1102,3614,0.7353709661057974,False
+fingerprint,echoes,Echoes: FMA 30 s,59,3614,0.8432883419470422,True
+fingerprint,echoes,SONICS: YouTube full,6882,3614,0.7580595305125358,False
+fingerprint,echoes,AB: FMA mp3 30 s,150,3614,0.7353348090758163,False
+fingerprint,echoes,AB: MoM YouTube,347,3614,0.7832085916281384,False
+fingerprint,echoes,AB: SONICS YouTube,294,3614,0.7760579605389472,False
+fingerprint,echoes,AB: YouTube lossless,73,3614,0.7419055272115289,False
+fingerprint,fakemusiccaps,FMC: MusicCaps 10 s,1102,3614,0.870790844638264,True
+fingerprint,fakemusiccaps,Echoes: FMA 30 s,59,3614,0.8913453331207264,False
+fingerprint,fakemusiccaps,SONICS: YouTube full,6882,3614,0.875593991978304,False
+fingerprint,fakemusiccaps,AB: FMA mp3 30 s,150,3614,0.8851983028961445,False
+fingerprint,fakemusiccaps,AB: MoM YouTube,347,3614,0.8869844935401712,False
+fingerprint,fakemusiccaps,AB: SONICS YouTube,294,3614,0.8893070786698742,False
+fingerprint,fakemusiccaps,AB: YouTube lossless,73,3614,0.8750369567359811,False
+fingerprint,sonics,FMC: MusicCaps 10 s,1102,3614,0.6010543791687298,False
+fingerprint,sonics,Echoes: FMA 30 s,59,3614,0.779571909617026,False
+fingerprint,sonics,SONICS: YouTube full,6882,3614,0.6798630306404734,True
+fingerprint,sonics,AB: FMA mp3 30 s,150,3614,0.6331175059952039,False
+fingerprint,sonics,AB: MoM YouTube,155,3614,0.6698234464537551,False
+fingerprint,sonics,AB: SONICS YouTube,294,3614,0.683159594773161,False
+fingerprint,sonics,AB: YouTube lossless,73,3614,0.6111848140033811,False
+trajectory,artifactbench,FMC: MusicCaps 10 s,1102,3614,0.813284343905582,False
+trajectory,artifactbench,Echoes: FMA 30 s,59,3614,0.8859144757205969,False
+trajectory,artifactbench,SONICS: YouTube full,6882,3614,0.9062054360267402,False
+trajectory,artifactbench,AB: FMA mp3 30 s,148,3614,0.8874067066513109,True
+trajectory,artifactbench,AB: MoM YouTube,347,3614,0.9278087616362243,True
+trajectory,artifactbench,AB: SONICS YouTube,294,3614,0.9224952847768881,True
+trajectory,artifactbench,AB: YouTube lossless,73,3614,0.905333899371546,True
+trajectory,echoes,FMC: MusicCaps 10 s,1102,3614,0.7927732642867975,False
+trajectory,echoes,Echoes: FMA 30 s,59,3614,0.9540768949377655,True
+trajectory,echoes,SONICS: YouTube full,6882,3614,0.8389479014333969,False
+trajectory,echoes,AB: FMA mp3 30 s,148,3614,0.9555276776499799,False
+trajectory,echoes,AB: MoM YouTube,347,3614,0.9331338741908269,False
+trajectory,echoes,AB: SONICS YouTube,294,3614,0.9347765116007665,False
+trajectory,echoes,AB: YouTube lossless,73,3614,0.8779745434421692,False
+trajectory,fakemusiccaps,FMC: MusicCaps 10 s,1102,3614,0.6829761654867088,True
+trajectory,fakemusiccaps,Echoes: FMA 30 s,59,3614,0.6468395036252615,False
+trajectory,fakemusiccaps,SONICS: YouTube full,6882,3614,0.7596460823427638,False
+trajectory,fakemusiccaps,AB: FMA mp3 30 s,148,3614,0.653982635097743,False
+trajectory,fakemusiccaps,AB: MoM YouTube,347,3614,0.6061761098768956,False
+trajectory,fakemusiccaps,AB: SONICS YouTube,294,3614,0.6038365539907165,False
+trajectory,fakemusiccaps,AB: YouTube lossless,73,3614,0.5816421678252761,False
+trajectory,sonics,FMC: MusicCaps 10 s,1102,3614,0.6796567492620451,False
+trajectory,sonics,Echoes: FMA 30 s,59,3614,0.7503587742582987,False
+trajectory,sonics,SONICS: YouTube full,6882,3614,0.774916663811999,True
+trajectory,sonics,AB: FMA mp3 30 s,148,3614,0.6782127312702851,False
+trajectory,sonics,AB: MoM YouTube,155,3614,0.6520752628666298,False
+trajectory,sonics,AB: SONICS YouTube,294,3614,0.6685706379950984,False
+trajectory,sonics,AB: YouTube lossless,73,3614,0.6435740764606439,False
+three_support,artifactbench,FMC: MusicCaps 10 s,1102,3614,0.8641914333952354,False
+three_support,artifactbench,Echoes: FMA 30 s,59,3614,0.835127986268091,False
+three_support,artifactbench,SONICS: YouTube full,6882,3614,0.8655403354869589,False
+three_support,artifactbench,AB: FMA mp3 30 s,150,3614,0.8486736764434606,True
+three_support,artifactbench,AB: MoM YouTube,347,3614,0.8600423584874064,True
+three_support,artifactbench,AB: SONICS YouTube,294,3614,0.8670664724107684,True
+three_support,artifactbench,AB: YouTube lossless,73,3614,0.8378490042528675,True
+three_support,echoes,FMC: MusicCaps 10 s,1102,3614,0.8733632666671355,False
+three_support,echoes,Echoes: FMA 30 s,59,3614,0.862441728494649,True
+three_support,echoes,SONICS: YouTube full,6882,3614,0.8620723165281067,False
+three_support,echoes,AB: FMA mp3 30 s,150,3614,0.8680225050728647,False
+three_support,echoes,AB: MoM YouTube,347,3614,0.8608485412955382,False
+three_support,echoes,AB: SONICS YouTube,294,3614,0.8672245876767972,False
+three_support,echoes,AB: YouTube lossless,73,3614,0.8196283858055811,False
+three_support,fakemusiccaps,FMC: MusicCaps 10 s,1102,3614,0.9014405814452167,True
+three_support,fakemusiccaps,Echoes: FMA 30 s,59,3614,0.8368819937531071,False
+three_support,fakemusiccaps,SONICS: YouTube full,6882,3614,0.8847315615417264,False
+three_support,fakemusiccaps,AB: FMA mp3 30 s,150,3614,0.8805552481092049,False
+three_support,fakemusiccaps,AB: MoM YouTube,347,3614,0.8826872441306542,False
+three_support,fakemusiccaps,AB: SONICS YouTube,294,3614,0.8905192957094294,False
+three_support,fakemusiccaps,AB: YouTube lossless,73,3614,0.8815451327031105,False
+three_support,sonics,FMC: MusicCaps 10 s,1102,3614,0.8336206645461238,False
+three_support,sonics,Echoes: FMA 30 s,59,3614,0.8041608434243478,False
+three_support,sonics,SONICS: YouTube full,6882,3614,0.8412791797277757,True
+three_support,sonics,AB: FMA mp3 30 s,150,3614,0.8201014572957019,False
+three_support,sonics,AB: MoM YouTube,155,3614,0.8410803863112983,False
+three_support,sonics,AB: SONICS YouTube,294,3614,0.8457500875280937,False
+three_support,sonics,AB: YouTube lossless,73,3614,0.8360068531055029,False
+handcrafted,artifactbench,FMC: MusicCaps 10 s,1102,3614,0.6340200490731245,False
+handcrafted,artifactbench,Echoes: FMA 30 s,59,3614,0.7867098759063154,False
+handcrafted,artifactbench,SONICS: YouTube full,6882,3614,0.8741214660221389,False
+handcrafted,artifactbench,AB: FMA mp3 30 s,150,3614,0.661031175059952,True
+handcrafted,artifactbench,AB: MoM YouTube,347,3614,0.8931181811367577,True
+handcrafted,artifactbench,AB: SONICS YouTube,294,3614,0.890620000075293,True
+handcrafted,artifactbench,AB: YouTube lossless,73,3614,0.8553077453737747,True
+handcrafted,echoes,FMC: MusicCaps 10 s,1102,3614,0.6347693030832907,False
+handcrafted,echoes,Echoes: FMA 30 s,59,3614,0.7633918940466923,True
+handcrafted,echoes,SONICS: YouTube full,6882,3614,0.8835078540346584,False
+handcrafted,echoes,AB: FMA mp3 30 s,150,3614,0.6988581442538278,False
+handcrafted,echoes,AB: MoM YouTube,347,3614,0.9047906875120608,False
+handcrafted,echoes,AB: SONICS YouTube,294,3614,0.8906924695722229,False
+handcrafted,echoes,AB: YouTube lossless,73,3614,0.8718492013554593,False
+handcrafted,fakemusiccaps,FMC: MusicCaps 10 s,1102,3614,0.697377962491099,True
+handcrafted,fakemusiccaps,Echoes: FMA 30 s,59,3614,0.7881918715353662,False
+handcrafted,fakemusiccaps,SONICS: YouTube full,6882,3614,0.8877810500576804,False
+handcrafted,fakemusiccaps,AB: FMA mp3 30 s,150,3614,0.715185390149419,False
+handcrafted,fakemusiccaps,AB: MoM YouTube,347,3614,0.9031854985973535,False
+handcrafted,fakemusiccaps,AB: SONICS YouTube,294,3614,0.906790109513645,False
+handcrafted,fakemusiccaps,AB: YouTube lossless,73,3614,0.8736799811994451,False
+handcrafted,sonics,FMC: MusicCaps 10 s,1102,3614,0.4454360286725248,False
+handcrafted,sonics,Echoes: FMA 30 s,59,3614,0.5645840563533527,False
+handcrafted,sonics,SONICS: YouTube full,6882,3614,0.6074910174469237,True
+handcrafted,sonics,AB: FMA mp3 30 s,150,3614,0.4730640103301974,False
+handcrafted,sonics,AB: MoM YouTube,155,3614,0.69341985468697,False
+handcrafted,sonics,AB: SONICS YouTube,294,3614,0.6110853860083049,False
+handcrafted,sonics,AB: YouTube lossless,73,3614,0.5705134522518971,False
+single_support,artifactbench,FMC: MusicCaps 10 s,1102,3614,0.8202955435456187,False
+single_support,artifactbench,Echoes: FMA 30 s,59,3614,0.8044656842974122,False
+single_support,artifactbench,SONICS: YouTube full,6882,3614,0.8243292295276515,False
+single_support,artifactbench,AB: FMA mp3 30 s,150,3614,0.8086792104777716,True
+single_support,artifactbench,AB: MoM YouTube,347,3614,0.81340336730837,True
+single_support,artifactbench,AB: SONICS YouTube,294,3614,0.8222793821457747,True
+single_support,artifactbench,AB: YouTube lossless,73,3614,0.7774143172290409,True
+single_support,echoes,FMC: MusicCaps 10 s,1102,3614,0.8490328496660999,False
+single_support,echoes,Echoes: FMA 30 s,59,3614,0.8100513070638664,True
+single_support,echoes,SONICS: YouTube full,6882,3614,0.8368870325240714,False
+single_support,echoes,AB: FMA mp3 30 s,150,3614,0.8373215273934699,False
+single_support,echoes,AB: MoM YouTube,347,3614,0.8386533956164708,False
+single_support,echoes,AB: SONICS YouTube,294,3614,0.8404607554145067,False
+single_support,echoes,AB: YouTube lossless,73,3614,0.7817316220785226,False
+single_support,fakemusiccaps,FMC: MusicCaps 10 s,1102,3614,0.8460072093100334,True
+single_support,fakemusiccaps,Echoes: FMA 30 s,59,3614,0.7721291024546726,False
+single_support,fakemusiccaps,SONICS: YouTube full,6882,3614,0.8363720464846016,False
+single_support,fakemusiccaps,AB: FMA mp3 30 s,150,3614,0.8194373731783804,False
+single_support,fakemusiccaps,AB: MoM YouTube,347,3614,0.8327262375424422,False
+single_support,fakemusiccaps,AB: SONICS YouTube,294,3614,0.8395007698707596,False
+single_support,fakemusiccaps,AB: YouTube lossless,73,3614,0.827205464290317,False
+single_support,sonics,FMC: MusicCaps 10 s,1102,3614,0.7713768396144456,False
+single_support,sonics,Echoes: FMA 30 s,59,3614,0.753932447262529,False
+single_support,sonics,SONICS: YouTube full,6882,3614,0.7851474303087207,True
+single_support,sonics,AB: FMA mp3 30 s,150,3614,0.7593119350673307,False
+single_support,sonics,AB: MoM YouTube,155,3614,0.8000981844797115,False
+single_support,sonics,AB: SONICS YouTube,294,3614,0.7900624555300815,False
+single_support,sonics,AB: YouTube lossless,73,3614,0.7640985209724738,False
+attention_pooling,artifactbench,FMC: MusicCaps 10 s,1102,3614,0.9222438048444394,False
+attention_pooling,artifactbench,Echoes: FMA 30 s,59,3614,0.9752305065986325,False
+attention_pooling,artifactbench,SONICS: YouTube full,2500,3614,0.9865648588821251,False
+attention_pooling,artifactbench,AB: FMA mp3 30 s,150,3614,0.9565329275041504,True
+attention_pooling,artifactbench,AB: MoM YouTube,347,3614,0.9905044264300374,True
+attention_pooling,artifactbench,AB: SONICS YouTube,294,3614,0.9870731358398368,True
+attention_pooling,artifactbench,AB: YouTube lossless,73,3614,0.9787053392059797,True
+attention_pooling,echoes,FMC: MusicCaps 10 s,1102,3614,0.9012875417940114,False
+attention_pooling,echoes,Echoes: FMA 30 s,59,3614,0.9899519758378433,True
+attention_pooling,echoes,SONICS: YouTube full,2500,3614,0.9513014388489209,False
+attention_pooling,echoes,AB: FMA mp3 30 s,150,3614,0.9630474082272644,False
+attention_pooling,echoes,AB: MoM YouTube,347,3614,0.9570944884526873,False
+attention_pooling,echoes,AB: SONICS YouTube,294,3614,0.9504802751205629,False
+attention_pooling,echoes,AB: YouTube lossless,73,3614,0.8987518099324545,False
+attention_pooling,fakemusiccaps,FMC: MusicCaps 10 s,1102,3614,0.6088351711482971,True
+attention_pooling,fakemusiccaps,Echoes: FMA 30 s,59,3614,0.6137244050913117,False
+attention_pooling,fakemusiccaps,SONICS: YouTube full,2500,3614,0.763068898727172,False
+attention_pooling,fakemusiccaps,AB: FMA mp3 30 s,150,3614,0.5598736395498985,False
+attention_pooling,fakemusiccaps,AB: MoM YouTube,347,3614,0.7532307118171568,False
+attention_pooling,fakemusiccaps,AB: SONICS YouTube,294,3614,0.763333916853958,False
+attention_pooling,fakemusiccaps,AB: YouTube lossless,73,3614,0.7410034038101446,False
+attention_pooling,sonics,FMC: MusicCaps 10 s,1102,3614,0.6061978422287997,False
+attention_pooling,sonics,Echoes: FMA 30 s,59,3614,0.6777339536454279,False
+attention_pooling,sonics,SONICS: YouTube full,2500,3614,0.7066391256225789,True
+attention_pooling,sonics,AB: FMA mp3 30 s,150,3614,0.6402868474451208,False
+attention_pooling,sonics,AB: MoM YouTube,155,3614,0.6492903939875395,False
+attention_pooling,sonics,AB: SONICS YouTube,294,3614,0.7014647308840525,False
+attention_pooling,sonics,AB: YouTube lossless,73,3614,0.7360095064096247,False
+mean_pooling,artifactbench,FMC: MusicCaps 10 s,1102,3614,0.8787635952943634,False
+mean_pooling,artifactbench,Echoes: FMA 30 s,59,3614,0.9457312898051833,False
+mean_pooling,artifactbench,SONICS: YouTube full,2500,3614,0.9808385168788046,False
+mean_pooling,artifactbench,AB: FMA mp3 30 s,150,3614,0.93072864785095,True
+mean_pooling,artifactbench,AB: MoM YouTube,347,3614,0.9868574659226288,True
+mean_pooling,artifactbench,AB: SONICS YouTube,294,3614,0.9790379627224437,True
+mean_pooling,artifactbench,AB: YouTube lossless,73,3614,0.963304803996634,True
+mean_pooling,echoes,FMC: MusicCaps 10 s,1102,3614,0.9066440551314356,False
+mean_pooling,echoes,Echoes: FMA 30 s,59,3614,0.9935021995441456,True
+mean_pooling,echoes,SONICS: YouTube full,2500,3614,0.9620591034864415,False
+mean_pooling,echoes,AB: FMA mp3 30 s,150,3614,0.9685510053495664,False
+mean_pooling,echoes,AB: MoM YouTube,347,3614,0.967170976143049,False
+mean_pooling,echoes,AB: SONICS YouTube,294,3614,0.9594288462479623,False
+mean_pooling,echoes,AB: YouTube lossless,73,3614,0.9119103031589482,False
+mean_pooling,fakemusiccaps,FMC: MusicCaps 10 s,1102,3614,0.5918969835997739,True
+mean_pooling,fakemusiccaps,Echoes: FMA 30 s,59,3614,0.5437259058463789,False
+mean_pooling,fakemusiccaps,SONICS: YouTube full,2500,3614,0.7184279468732706,False
+mean_pooling,fakemusiccaps,AB: FMA mp3 30 s,150,3614,0.5100304371887106,False
+mean_pooling,fakemusiccaps,AB: MoM YouTube,347,3614,0.7076399177709484,False
+mean_pooling,fakemusiccaps,AB: SONICS YouTube,294,3614,0.7093831998765195,False
+mean_pooling,fakemusiccaps,AB: YouTube lossless,73,3614,0.7137823987385434,False
+mean_pooling,sonics,FMC: MusicCaps 10 s,1102,3614,0.545615985223827,False
+mean_pooling,sonics,Echoes: FMA 30 s,59,3614,0.7217811148734207,False
+mean_pooling,sonics,SONICS: YouTube full,2500,3614,0.6916242944106252,True
+mean_pooling,sonics,AB: FMA mp3 30 s,150,3614,0.6167579782327983,False
+mean_pooling,sonics,AB: MoM YouTube,155,3614,0.64107860113894,False
+mean_pooling,sonics,AB: SONICS YouTube,294,3614,0.6903914858693893,False
+mean_pooling,sonics,AB: YouTube lossless,73,3614,0.6953457255270599,False
+fixed_fusion,artifactbench,FMC: MusicCaps 10 s,1102,3614,0.8994632438681193,False
+fixed_fusion,artifactbench,Echoes: FMA 30 s,59,3614,0.8929844390458951,False
+fixed_fusion,artifactbench,SONICS: YouTube full,6882,3614,0.9380508000547453,False
+fixed_fusion,artifactbench,AB: FMA mp3 30 s,148,3614,0.9056774331054906,True
+fixed_fusion,artifactbench,AB: MoM YouTube,347,3614,0.9248758829336442,True
+fixed_fusion,artifactbench,AB: SONICS YouTube,294,3614,0.9250557168080293,True
+fixed_fusion,artifactbench,AB: YouTube lossless,73,3614,0.887750073913472,True
+fixed_fusion,echoes,FMC: MusicCaps 10 s,1102,3614,0.9107584238347142,False
+fixed_fusion,echoes,Echoes: FMA 30 s,59,3614,0.9550945944678416,True
+fixed_fusion,echoes,SONICS: YouTube full,6882,3614,0.9109349365789375,False
+fixed_fusion,echoes,AB: FMA mp3 30 s,148,3614,0.9513706082950687,False
+fixed_fusion,echoes,AB: MoM YouTube,347,3614,0.9183793732028344,False
+fixed_fusion,echoes,AB: SONICS YouTube,294,3614,0.9216284743006223,False
+fixed_fusion,echoes,AB: YouTube lossless,73,3614,0.8447267475798076,False
+fixed_fusion,fakemusiccaps,FMC: MusicCaps 10 s,1102,3614,0.8966323241839308,True
+fixed_fusion,fakemusiccaps,Echoes: FMA 30 s,59,3614,0.8587766032284994,False
+fixed_fusion,fakemusiccaps,SONICS: YouTube full,6882,3614,0.907968937036006,False
+fixed_fusion,fakemusiccaps,AB: FMA mp3 30 s,148,3614,0.8875899280575541,False
+fixed_fusion,fakemusiccaps,AB: MoM YouTube,347,3614,0.8775917860258455,False
+fixed_fusion,fakemusiccaps,AB: SONICS YouTube,294,3614,0.8762564516675514,False
+fixed_fusion,fakemusiccaps,AB: YouTube lossless,73,3614,0.8574891404052732,False
+fixed_fusion,sonics,FMC: MusicCaps 10 s,1102,3614,0.8061243731526018,False
+fixed_fusion,sonics,Echoes: FMA 30 s,59,3614,0.8566896157129055,False
+fixed_fusion,sonics,SONICS: YouTube full,6882,3614,0.873056051838832,True
+fixed_fusion,sonics,AB: FMA mp3 30 s,148,3614,0.8023050374669078,False
+fixed_fusion,sonics,AB: MoM YouTube,155,3614,0.8117071603263294,False
+fixed_fusion,sonics,AB: SONICS YouTube,294,3614,0.8286054045303788,False
+fixed_fusion,sonics,AB: YouTube lossless,73,3614,0.7743440653167666,False
+learned_fusion,artifactbench,FMC: MusicCaps 10 s,1102,3614,0.9227053091576716,False
+learned_fusion,artifactbench,Echoes: FMA 30 s,59,3614,0.9342059598735614,False
+learned_fusion,artifactbench,SONICS: YouTube full,2500,3614,0.963817044825678,False
+learned_fusion,echoes,FMC: MusicCaps 10 s,1102,3614,0.9164340731798198,False
+learned_fusion,echoes,SONICS: YouTube full,2500,3614,0.9192485888212508,False
+learned_fusion,echoes,AB: FMA mp3 30 s,148,3614,0.9336289803915704,False
+learned_fusion,echoes,AB: MoM YouTube,347,3614,0.9148053758279124,False
+learned_fusion,echoes,AB: SONICS YouTube,294,3614,0.9207616638243564,False
+learned_fusion,echoes,AB: YouTube lossless,73,3614,0.8603907179840953,False
+learned_fusion,fakemusiccaps,Echoes: FMA 30 s,59,3614,0.8099106112762984,False
+learned_fusion,fakemusiccaps,SONICS: YouTube full,2500,3614,0.8897390149418927,False
+learned_fusion,fakemusiccaps,AB: FMA mp3 30 s,148,3614,0.8062115795928746,False
+learned_fusion,fakemusiccaps,AB: MoM YouTube,347,3614,0.8855882263818738,False
+learned_fusion,fakemusiccaps,AB: SONICS YouTube,294,3614,0.8927225566485587,False
+learned_fusion,fakemusiccaps,AB: YouTube lossless,73,3614,0.8781830173374473,False
+learned_fusion,sonics,FMC: MusicCaps 10 s,1102,3614,0.8019182308766974,False
+learned_fusion,sonics,Echoes: FMA 30 s,59,3614,0.8245195238854548,False
+learned_fusion,sonics,AB: FMA mp3 30 s,148,3614,0.8139068786550802,False
+learned_fusion,sonics,AB: MoM YouTube,155,3614,0.8273649070817788,False
+learned_fusion,sonics,AB: SONICS YouTube,294,3614,0.8508888336740341,False
+learned_fusion,sonics,AB: YouTube lossless,73,3614,0.8592573780806756,False

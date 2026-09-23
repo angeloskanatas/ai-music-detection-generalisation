@@ -1,0 +1,33 @@
+target,generator,display,decoder_class,n_generated,n_human,auroc_native,auroc_16k
+artifactbench,DiffRhythm,DiffRhythm,continuous_vae,100,842,0.9927553444180522,0.9390142517814727
+artifactbench,MusicGen Large,MusicGen Large,rvq_encodec,30,842,0.9985352335708629,0.9847585114806018
+artifactbench,MusicGen Medium,MusicGen Medium,rvq_encodec,29,842,0.9975427962978132,0.9778032598902449
+artifactbench,MusicGen Small,MusicGen Small,rvq_encodec,30,842,0.9890736342042755,0.9749010292953285
+artifactbench,Riffusion,Riffusion,griffin_lim,100,842,0.9912470308788598,0.9511401425178148
+artifactbench,Riffusion (AIME),Riffusion (AIME),griffin_lim,30,842,0.9984956452889945,0.9897070467141725
+artifactbench,Stable Audio v1,Stable Audio v1,continuous_vae,50,842,0.994726840855107,0.962541567695962
+artifactbench,Stable Audio v2,Stable Audio v2,continuous_vae,50,842,0.992185273159145,0.9614964370546318
+artifactbench,Suno (mixed),Suno (mixed),unknown_proprietary,80,842,0.9964222090261282,0.9831947743467933
+artifactbench,Suno v3,Suno v3,unknown_proprietary,30,842,0.9997624703087886,0.9958432304038005
+artifactbench,Suno v3.5,Suno v3.5,unknown_proprietary,30,842,0.997545526524149,0.9871733966745844
+artifactbench,Suno v4,Suno v4,unknown_proprietary,100,842,0.9930760095011876,0.9479097387173397
+artifactbench,Udio,Udio,unknown_proprietary,100,842,0.9971852731591448,0.978853919239905
+artifactbench,Udio (AIME),Udio (AIME),unknown_proprietary,30,842,0.9980205859065716,0.9977038796516231
+artifactbench,Udio (mixed),Udio (mixed),unknown_proprietary,80,842,0.9782214964370547,0.8907808788598576
+artifactbench,Udio CDN,Udio CDN,unknown_proprietary,18,842,0.9917524412773818,0.901689100026392
+artifactbench,Udio CDN Latest,Udio CDN Latest,unknown_proprietary,17,842,0.9487215313678916,0.7966326673187089
+artifactbench,Yue,Yue,rvq_xcodec,100,842,0.9949881235154394,0.9721971496437055
+echoes,acestep,ACE-Step,mel_vae_hifigan,57,53,0.9947037404832837,0.975504799735187
+echoes,brev,Brev,unknown_proprietary,68,53,0.9725305216426193,0.9225860155382908
+echoes,diffrhythm,DiffRhythm,continuous_vae,59,53,0.9830508474576272,0.9024624240486089
+echoes,mubert,Mubert,non_neural,32,53,0.9168632075471699,0.8290094339622641
+echoes,producer,Producer (Riffusion FUZZ),unknown_proprietary,34,53,0.9822419533851277,0.9417314095449502
+echoes,stableaudio,Stable Audio,continuous_vae,35,53,0.9504043126684636,0.9196765498652291
+echoes,suno,Suno,unknown_proprietary,68,53,0.9902885682574917,0.9511653718091011
+echoes,udio,Udio,unknown_proprietary,68,53,0.9395116537180911,0.855715871254162
+music8k,acestep1.5,ACE-Step 1.5,continuous_vae,989,1018,0.9998698850419446,0.9895381614259805
+music8k,heartmula,HeartMuLa,hybrid_rvq_flow,989,1018,0.9990733033903388,0.9359839372587658
+music8k,minimax_2.6,MiniMax 2.6,hybrid_rvq_flow,304,1018,0.804727083548754,0.8148523937545239
+music8k,mureka_v9,Mureka v9,continuous_vae,662,1018,0.9457039156215313,0.9013630778910131
+music8k,suno_v5.5,Suno v5.5,unknown_proprietary,330,1018,0.9986515449187355,0.9861850330416145
+music8k,sunov5_new,Suno v5,unknown_proprietary,340,1018,0.9996475210909512,0.9679186409337802

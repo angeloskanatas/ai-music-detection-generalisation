@@ -1,0 +1,49 @@
+collection,generator,source_id,n_target,decoder_class,confidence,brand
+artifactbench,DiffRhythm,mom_diffrythm,100,continuous_vae,verified,DiffRhythm
+artifactbench,Google Chirp v2 XXL,sonics_chirp-v2-xxl-alpha,80,unknown_proprietary,unknown,Suno
+artifactbench,Google Chirp v3,sonics_chirp-v3,80,unknown_proprietary,unknown,Suno
+artifactbench,Google Chirp v3.5,sonics_chirp-v3.5,80,unknown_proprietary,unknown,Suno
+artifactbench,MusicGen Large,aime_musicgen_large,30,rvq_encodec,verified,MusicGen
+artifactbench,MusicGen Medium,aime_musicgen_medium,30,rvq_encodec,verified,MusicGen
+artifactbench,MusicGen Small,aime_musicgen_small,30,rvq_encodec,verified,MusicGen
+artifactbench,Riffusion,mom_riffusion,100,griffin_lim,unknown,Riffusion
+artifactbench,Riffusion (AIME),aime_riffusion,30,griffin_lim,unknown,Riffusion
+artifactbench,Stable Audio v1,aime_stable_audio_v1,50,continuous_vae,verified,StableAudio
+artifactbench,Stable Audio v2,aime_stable_audio_v2,50,continuous_vae,verified,StableAudio
+artifactbench,Suno (mixed),suno_extra,80,unknown_proprietary,unknown,Suno
+artifactbench,Suno v3,aime_suno_v3,30,unknown_proprietary,unknown,Suno
+artifactbench,Suno v3.5,aime_suno_v35,29,unknown_proprietary,unknown,Suno
+artifactbench,Suno v4,suno_cdn_latest,100,unknown_proprietary,unknown,Suno
+artifactbench,Udio,mom_udio,100,unknown_proprietary,unknown,Udio
+artifactbench,Udio (AIME),aime_udio,30,unknown_proprietary,unknown,Udio
+artifactbench,Udio (SONICS 120s),sonics_udio-120s,80,unknown_proprietary,unknown,Udio
+artifactbench,Udio (SONICS 30s),sonics_udio-30s,80,unknown_proprietary,unknown,Udio-32
+artifactbench,Udio (mixed),udio_extra,80,unknown_proprietary,unknown,Udio
+artifactbench,Udio CDN,udio_cdn_latest,18,unknown_proprietary,unknown,Udio
+artifactbench,Udio CDN Latest,udio_cdn_latest,17,unknown_proprietary,unknown,Udio
+artifactbench,Yue,mom_yue,100,rvq_xcodec,verified,Yue
+echoes,acestep,TTA,57,mel_vae_hifigan,likely,AceStep
+echoes,audioldm,ATA,59,mel_vae_hifigan,verified,AudioLDM
+echoes,audioldm,TTA,56,mel_vae_hifigan,verified,AudioLDM
+echoes,brev,TTA,68,unknown_proprietary,likely,Brev
+echoes,diffrhythm,ATA,61,continuous_vae,verified,DiffRhythm
+echoes,diffrhythm,TTA,59,continuous_vae,verified,DiffRhythm
+echoes,mubert,TTA,32,non_neural,likely,Mubert
+echoes,producer,ATA,34,unknown_proprietary,unknown,Riffusion
+echoes,producer,TTA,34,unknown_proprietary,unknown,Riffusion
+echoes,songgen,ATA,53,rvq_xcodec,verified,SongGen
+echoes,songgen,TTA,58,rvq_xcodec,verified,SongGen
+echoes,stableaudio,TTA,35,continuous_vae,verified,StableAudio
+echoes,suno,TTA,68,unknown_proprietary,unknown,Suno
+echoes,udio,TTA,68,unknown_proprietary,unknown,Udio
+fakemusiccaps,MusicGen_medium,MusicGen_medium,1104,rvq_encodec,verified,MusicGen
+fakemusiccaps,audioldm2,audioldm2,1104,mel_vae_hifigan,verified,AudioLDM
+fakemusiccaps,musicldm,musicldm,1104,mel_vae_hifigan,verified,MusicLDM
+fakemusiccaps,mustango,mustango,1104,mel_vae_hifigan,verified,Mustango
+fakemusiccaps,stable_audio_open,stable_audio_open,1104,continuous_vae,verified,StableAudio
+music8k,acestep1.5,acestep1.5,989,continuous_vae,verified,AceStep
+music8k,heartmula,heartmula,989,hybrid_rvq_flow,likely,HeartMuLa
+music8k,mureka_v9,mureka_v9,662,continuous_vae,likely,Mureka
+music8k,sunov5_new,sunov5_new,340,unknown_proprietary,unknown,Suno
+music8k,suno_v5.5,suno_v5.5,330,unknown_proprietary,unknown,Suno
+music8k,minimax_2.6,minimax_2.6,304,hybrid_rvq_flow,likely,MiniMax

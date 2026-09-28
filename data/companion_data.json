@@ -1,6 +1,6 @@
 {
- "generated_utc": "2026-09-23T15:41:38Z",
- "script_sha256": "331a0a6ed2540e02d948523f1991bd8b1babdc5dfa4bbe1544cd62b6cadf6e3a",
+ "generated_utc": "2026-09-28T13:35:27Z",
+ "script_sha256": "94acbcf78e801864e8c76993e1df9beff5e8926e4a39ded1ba7d6e409fbedfbc",
  "inputs": {
   "/home/akanatas/projects/ai-detection-geometry/output/analysis/codec_class_map.json": "7ae7c4059d5a077863569c0162c23530df7dd2cf992d3caa389034494126d405",
   "/home/akanatas/projects/ai-detection-geometry/output/analysis/decoder_class_map_artifactbench.json": "9da8b26035863ac8e2200c057100e7459e148445ed3ef84a1e664a133937438c",
@@ -370,7 +370,7 @@
   "/data/codex_review_20260912/clam_corrected_p71/metrics_verified.csv": "408157d2bc4dc6debc3fb0e0f79f936ab0885758852ebbb074511ac8ecf0e5d1",
   "/data/codex_review_20260912/musicdet_oneclass_corrected_v2_p70/result.json": "d25c6e9c73efa97c882983863d5494fadb9f5e09cc54323f3637c099e268def4",
   "/data/codex_review_20260912/comoe_dac_ieee_p63/dac/verified_result.json": "9b519e2a4b418c874aef39eac769261e5ab6d41665945535c9812818d7bb5e9e",
-  "/home/akanatas/projects/ai-detection-geometry/paper/latest_overleaf/tables/exposure.tex": "b137335a2cd79f6687e9076d3cd31484ff716323ec3d644aeefb6d2042010bdd",
+  "/home/akanatas/projects/ai-detection-geometry/paper/latest_overleaf/tables/exposure.tex": "d8f8948087b596cc41fc7f24c8df3640a3c03b93aff8977d7b3c1f58f10c6352",
   "/home/akanatas/projects/ai-detection-geometry/output/analysis/codex_v9/family_folds_harvest_p72.json": "87687b27a5d41b45262e0fc4f33db79e45adf556afd37db47d2c4f26018b1065",
   "/home/akanatas/projects/ai-detection-geometry/notes/codex_audit_2026-09-20/fold_evidence.json": "e59cf76c48f2206dcc59fc7040daef52e3ac25f0589e3ab8314037880e83546f",
   "/home/akanatas/projects/ai-detection-geometry/output/analysis/codex_v9/family_folds_fusion_p72/result.json": "f3b338d8e6fd452fb5ec40941068f880dd8a1f4d3d8647c87a4e62b9eecc4b8f",
@@ -396,7 +396,7 @@
   "/data/cospy_single_source_20260922/publication/target__sonics__echoes.parquet": "16258305ebccfbcde19212ca04be877d89a91a0ecd2b7a7b1a4e1f752e3f07d7",
   "/data/cospy_single_source_20260922/publication/target__sonics__fakemusiccaps.parquet": "7566ce5de073c6f5f7faf565e4f74ab499319cff09ac74c0febf67d547ed4ce2",
   "/data/cospy_single_source_20260922/publication/target__sonics__music8k.parquet": "1fcf21be52f0062af9e3cab69d4f84239c747797a7d87a2dfdfa591f978bed2f",
-  "/home/akanatas/projects/ai-detection-geometry/paper/latest_overleaf/tables/panel.tex": "6ca29a1ef9e68b2b3888f67a26f8f07f4eb81e36fcbf4090ebdb35fa7ecfe661",
+  "/home/akanatas/projects/ai-detection-geometry/paper/latest_overleaf/tables/panel.tex": "0b33884e35a51b1f721b495cc969345de7a77320d35922f6b2e14dd27b50055d",
   "/home/akanatas/projects/ai-detection-geometry/notes/codex_audit_2026-09-20/strict_unseen_live_recheck.json": "d4a2073e12891bae7518d2b7ea77c5a5971409d7ad27486167fa86124e8247c5",
   "/home/akanatas/projects/ai-detection-geometry/output/analysis/full_metric_matrix.json": "b6163350271f4a371c8ef5e07cb99e7665987459b6fb4b92b302474f3cdfeb1c",
   "/data/level_dynamics_20260921/publication_g75/table_rows.json": "174f314f96e419d3ae04c708251c6609068d987d94a1498cd6ff3fcb27928022",
@@ -195278,7 +195278,7 @@
     "auroc_16k": 0.9679186409337802
    }
   ],
-  "note": "Released inference build scored by us; native input where the collection is distributed above 16 kHz; paired subsets where both inputs exist. FakeMusicCaps and SONICS have no per-recording export."
+  "note": "Released inference build scored by us; native input where the corpus is distributed above 16 kHz; paired subsets where both inputs exist. FakeMusicCaps and SONICS have no per-recording export."
  },
  "inventory": [
   {

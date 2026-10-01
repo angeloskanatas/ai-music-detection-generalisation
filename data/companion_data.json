@@ -1,6 +1,6 @@
 {
- "generated_utc": "2026-09-28T13:35:27Z",
- "script_sha256": "94acbcf78e801864e8c76993e1df9beff5e8926e4a39ded1ba7d6e409fbedfbc",
+ "generated_utc": "2026-10-01T09:09:56Z",
+ "script_sha256": "45a67cecba030097ec5b4c5194140fcd583016fdc13c03f6f7d44eecdcf44e73",
  "inputs": {
   "/home/akanatas/projects/ai-detection-geometry/output/analysis/codec_class_map.json": "7ae7c4059d5a077863569c0162c23530df7dd2cf992d3caa389034494126d405",
   "/home/akanatas/projects/ai-detection-geometry/output/analysis/decoder_class_map_artifactbench.json": "9da8b26035863ac8e2200c057100e7459e148445ed3ef84a1e664a133937438c",
@@ -194931,6 +194931,133 @@
     ]
    }
   ]
+ },
+ "fusion_gain": {
+  "pairs": [
+   {
+    "trainer": "artifactbench",
+    "target": "echoes",
+    "n_human": 59,
+    "n_generated": 742,
+    "n_learned": 801,
+    "n_fixed": 801,
+    "learned": 0.9649824112567956,
+    "fixed": 0.9519850153044909,
+    "difference": 0.012997395952304758,
+    "ci_low": -0.006146352048974441,
+    "ci_high": 0.032030357713920245
+   },
+   {
+    "trainer": "artifactbench",
+    "target": "fakemusiccaps",
+    "n_human": 1102,
+    "n_generated": 5520,
+    "n_learned": 6622,
+    "n_fixed": 6622,
+    "learned": 0.971803078723796,
+    "fixed": 0.9549523757857913,
+    "difference": 0.016850702938004725,
+    "ci_low": 0.012046316479917918,
+    "ci_high": 0.02193886198348193
+   },
+   {
+    "trainer": "echoes",
+    "target": "artifactbench",
+    "n_human": 862,
+    "n_generated": 1404,
+    "n_learned": 2266,
+    "n_fixed": 2266,
+    "learned": 0.930384516231384,
+    "fixed": 0.9287836046826766,
+    "difference": 0.00160091154870734,
+    "ci_low": -0.005951806985014593,
+    "ci_high": 0.009266891992385026
+   },
+   {
+    "trainer": "echoes",
+    "target": "fakemusiccaps",
+    "n_human": 1102,
+    "n_generated": 5520,
+    "n_learned": 6622,
+    "n_fixed": 6622,
+    "learned": 0.9877500394539572,
+    "fixed": 0.9513956837370788,
+    "difference": 0.036354355716878395,
+    "ci_low": 0.031214253070832945,
+    "ci_high": 0.041670447670901424
+   },
+   {
+    "trainer": "fakemusiccaps",
+    "target": "artifactbench",
+    "n_human": 862,
+    "n_generated": 1404,
+    "n_learned": 2266,
+    "n_fixed": 2266,
+    "learned": 0.8708149073578307,
+    "fixed": 0.8704455615708516,
+    "difference": 0.0003693457869791139,
+    "ci_low": -0.013154948407268538,
+    "ci_high": 0.013636068805732426
+   },
+   {
+    "trainer": "fakemusiccaps",
+    "target": "echoes",
+    "n_human": 59,
+    "n_generated": 742,
+    "n_learned": 801,
+    "n_fixed": 801,
+    "learned": 0.8686783315820732,
+    "fixed": 0.9235460733701859,
+    "difference": -0.05486774178811271,
+    "ci_low": -0.07876273470693045,
+    "ci_high": -0.032479784366576794
+   },
+   {
+    "trainer": "sonics",
+    "target": "artifactbench",
+    "n_human": 670,
+    "n_generated": 1258,
+    "n_learned": 1928,
+    "n_fixed": 1928,
+    "learned": 0.9212111145385948,
+    "fixed": 0.8769024511781316,
+    "difference": 0.04430866336046324,
+    "ci_low": 0.028255433879885095,
+    "ci_high": 0.061317834515815205
+   },
+   {
+    "trainer": "sonics",
+    "target": "echoes",
+    "n_human": 59,
+    "n_generated": 742,
+    "n_learned": 801,
+    "n_fixed": 801,
+    "learned": 0.887363515921239,
+    "fixed": 0.8664854493124401,
+    "difference": 0.020878066608798873,
+    "ci_low": -0.0314672895061446,
+    "ci_high": 0.07342215267942809
+   },
+   {
+    "trainer": "sonics",
+    "target": "fakemusiccaps",
+    "n_human": 1102,
+    "n_generated": 5520,
+    "n_learned": 6622,
+    "n_fixed": 6622,
+    "learned": 0.9512069623083195,
+    "fixed": 0.8551913188142771,
+    "difference": 0.09601564349404235,
+    "ci_low": 0.08444831449406873,
+    "ci_high": 0.10788389522344097
+   }
+  ],
+  "mean_difference": 0.019389704846451788,
+  "ci_low": 0.012091371106712412,
+  "ci_high": 0.026998790666938194,
+  "draws": 2000,
+  "seed": 0,
+  "pairs_positive": 8
  },
  "artifactnet": {
   "cells": [

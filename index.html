@@ -78,10 +78,11 @@ summary{cursor:pointer;color:var(--accent);font-size:13px}
 .box ul{margin:0;padding-left:18px}
 .box li{margin:2px 0}
 .cards{display:grid;grid-template-columns:1fr;gap:14px;margin:6px 0 18px}
-@media (min-width:860px){.cards{grid-template-columns:repeat(3,1fr)}}
+@media (min-width:700px){.cards{grid-template-columns:repeat(2,1fr)}}
+@media (min-width:1400px){.cards{grid-template-columns:repeat(4,1fr)}}
 .card{border:1px solid var(--rule);border-radius:6px;padding:14px 16px;background:var(--bg)}
 .card .eyebrow{font-size:11px;letter-spacing:.06em;text-transform:uppercase;color:var(--muted);margin:0 0 6px}
-.card .big{font-family:"IBM Plex Mono",monospace;font-size:26px;line-height:1.1;margin:0 0 6px;font-variant-numeric:tabular-nums}
+.card .big{font-family:"IBM Plex Mono",monospace;font-size:24px;line-height:1.1;margin:0 0 6px;font-variant-numeric:tabular-nums}
 .card .big small{font-size:13px;color:var(--muted);font-family:"Noto Sans",system-ui,sans-serif;margin-left:6px}
 .card p{margin:0 0 6px;font-size:13.5px}
 .card .cav{color:var(--muted);font-size:12.5px}
@@ -104,9 +105,9 @@ footer{padding:26px 0 40px;color:var(--muted);font-size:12.5px;text-align:center
 @media (min-width:900px){.figs{grid-template-columns:1fr 1fr}}
 .fig{margin:0;min-width:0}
 .fig svg{display:block;width:100%;height:auto;font-family:"IBM Plex Sans",system-ui,sans-serif}
-.fig svg text{fill:var(--ink);font-size:10.5px}
+.fig svg text{fill:var(--ink);font-size:11.5px}
 .fig svg text.mu{fill:var(--muted)}
-.fig svg text.num{font-family:"IBM Plex Mono",monospace;font-size:10px}
+.fig svg text.num{font-family:"IBM Plex Mono",monospace;font-size:10.5px}
 .cap{font-size:12.5px;color:var(--muted);margin-top:8px;max-width:64ch;line-height:1.45}
 .notes{max-width:800px;margin:0 auto;font-size:14.5px;line-height:1.6}
 .notes p{margin:0 0 12px}
@@ -156,7 +157,7 @@ kbd{font-family:"IBM Plex Mono",monospace;font-size:11px;background:var(--soft);
 
 <section id="s-glance">
 <h2>Key results</h2>
-<p class="how" style="text-align:center;margin-left:auto;margin-right:auto">The three questions in one number each, then five views that the paper's tables compress into single numbers. Colors follow the paper's figure: <span class="k k-fus">fusion</span>, <span class="k k-spec">spectral templates</span>, <span class="k k-fp">fingerprint</span>, <span class="k k-traj">trajectory readout</span>, <span class="k k-pool">mean and attention pooling</span>, <span class="k k-base">retrained baselines</span>.</p>
+<p class="how" style="text-align:center;margin-left:auto;margin-right:auto">The headline number, then the paper's three conditions in one number each (both detector families, with the control or the fixed side named), then five views that the paper's tables compress into single numbers. Colors follow the paper's figure: <span class="k k-fus">fusion</span>, <span class="k k-spec">spectral templates</span>, <span class="k k-fp">fingerprint</span>, <span class="k k-traj">trajectory readout</span>, <span class="k k-pool">mean and attention pooling</span>, <span class="k k-base">retrained baselines</span>.</p>
 <div class="cards" id="qcards"></div>
 <figure class="fig fig-wide"><div id="figPlane"></div><figcaption class="cap"><b>Figure S1. The sensitivity plane.</b> One point per detector: the mean AUROC loss when a generator family is withheld (Table 1, six primary exclusions; further left is worse) against the AUROC range across human-made pools with the generated recordings fixed (Table S10b; higher is worse). The spectral detectors sit low and left, the encoder readouts and retrained baselines high and right; the fusions sit between on both axes. Each family is sensitive on the side its features retain.</figcaption></figure>
 <div class="figs">
@@ -571,10 +572,13 @@ figA();figB();figC();figD();figS5();
 // ---------- 0 question cards, the sensitivity plane, the explorer
 (function(){const S1=D.table1.summary,RG=Object.fromEntries(D.human_pools.ranges.map(r=>[r.system,r.mean_range]));const RT0=D.table2.rates.filter(r=>r.recalibrated_fpr!=null);
  const lossOf=k=>S1[k]?S1[k].six_mean:null;const rateOf=(k,key)=>{const rs=RT0.filter(r=>r.system===k);return rs.length?balanced(rs,key):null;};
+ const SM2=D.table2.summary;const lvl=k=>{const six=S1[k].folds.filter(f=>f.primary);return [mean(six.map(f=>f.control)),mean(six.map(f=>f.removed))];};const L3=lvl('three_support'),LA=lvl('attention_pooling'),LF=lvl('fixed_fusion'),LL=lvl('learned_fusion');
+ const fmc=RT0.filter(r=>r.system==='attention_pooling'&&r.target==='fakemusiccaps').map(r=>r.paired_carried_fpr);
  const cards=[
-  {q:'Question 1',t:'Generator families absent from training',big:f3(lossOf('three_support')),small:'mean AUROC loss, three-support templates',p:`against ${f3(lossOf('attention_pooling'))} for attention pooling and ${f3(lossOf('fixed_fusion'))} for fixed fusion: six family exclusions, each compared with a size-matched control on identical recordings (Table S1).`,cav:'One fitted model per arm and one control draw per comparison; the Udio exclusions carry almost the whole loss.'},
-  {q:'Question 2',t:'The human-made comparison set',big:f3(RG.attention_pooling),small:'AUROC range across human-made pools, attention pooling',p:`against ${f3(RG.three_support)} for the three-support templates and ${f3(RG.learned_fusion)} for learned fusion, with the same 3,614 generated recordings fixed (Table S10).`,cav:'Pools hold 59 to 6,882 recordings and differ in source and delivery; the range measures variation, not a per-pool failure.'},
-  {q:'Question 3',t:'A threshold carried to another corpus',big:pct(rateOf('learned_fusion','paired_carried_fpr')),small:'false alarms, learned fusion, 5% threshold carried',p:`${pct(rateOf('learned_fusion','recalibrated_fpr'))} after recalibration on 200 human-made recordings of the test corpus, at ${pct(rateOf('learned_fusion','recalibrated_tpr'))} detection (Table S11).`,cav:'With 200 recordings the realised rate of a 5% rule can fall anywhere in a central range that the calculator in S11 gives; a 1% rule would need about 2,000.'}];
+  {q:'Headline',t:'Cross-corpus generalization',big:f3(SM2.learned_fusion.mean),small:'mean AUROC over nine training–test pairs, learned fusion',p:`Worst pair ${f3(SM2.learned_fusion.worst)}; MUSIC8K, six 2026 generators, ${f3(SM2.learned_fusion.music8k)}. Three-support templates ${f3(SM2.three_support.mean)} / ${f3(SM2.three_support.worst)}; attention pooling ${f3(SM2.attention_pooling.mean)} / ${f3(SM2.attention_pooling.worst)} (Tables S6, S9).`,cav:'The number image benchmarks report is a mean over unseen generators; here every pair changes the generators and the human-made music together, which the three conditions below separate.'},
+  {q:'Condition 1',t:'Generator families withheld from training',big:`${f3(L3[0]).slice(0,4)} → ${f3(L3[1]).slice(0,4)}`,small:'AUROC on the withheld families, three-support templates: size-matched control → exclusion',p:`Attention pooling ${f3(LA[0]).slice(0,4)} → ${f3(LA[1]).slice(0,4)}, fixed fusion ${f3(LF[0]).slice(0,4)} → ${f3(LF[1]).slice(0,4)}, learned fusion ${f3(LL[0]).slice(0,4)} → ${f3(LL[1]).slice(0,4)}: losses ${f3(lossOf('three_support'))}, ${f3(lossOf('attention_pooling'))}, ${f3(lossOf('fixed_fusion'))}, ${f3(lossOf('learned_fusion'))} against a control that keeps the family at the same training size (Table S1).`,cav:'The unseen-generator test of the image benchmarks, with a size-matched control so that exposure is separated from training volume; one fitted model per arm, and the Udio exclusions carry most of the loss.'},
+  {q:'Condition 2',t:'A different human-made set, generated recordings fixed',big:f3(RG.attention_pooling),small:'AUROC range across human-made pools, attention pooling',p:`Three-support templates ${f3(RG.three_support)}, learned fusion ${f3(RG.learned_fusion)}, with the same 3,614 generated recordings in every pool (Table S10).`,cav:'The real-side failure that image detectors show on new photograph sources (the real class as a “sink”, Ojha et al. 2023; SSAFE 2026, Table 3), measured with the generated side held fixed. Pools hold 59 to 6,882 recordings and differ in source and delivery.'},
+  {q:'Condition 3',t:'A threshold carried to another corpus',big:`${pct(rateOf('learned_fusion','paired_carried_fpr'))} → ${pct(rateOf('learned_fusion','recalibrated_fpr'))}`,small:'false alarms, learned fusion, 5% rule carried → recalibrated on 200 human-made recordings',p:`Detection ${pct(rateOf('learned_fusion','paired_carried_tpr'))} → ${pct(rateOf('learned_fusion','recalibrated_tpr'))}. The attention readout carries ${pct(Math.min(...fmc))} to ${pct(Math.max(...fmc))} false alarms onto FakeMusicCaps (Table S11a).`,cav:'The threshold-transfer gap reported for images by Corvi et al. (2023) and ZED (2024) and for video by SPLIT (2026); with 200 recordings the realised rate of a 5% rule lies in the range the calculator in S11b gives.'}];
  const el=$('#qcards');cards.forEach(c=>{const d=document.createElement('div');d.className='card';d.innerHTML=`<p class="eyebrow">${c.q}: ${c.t}</p><p class="big">${c.big}<small>${c.small}</small></p><p>${c.p}</p><p class="cav">${c.cav}</p>`;el.appendChild(d);});
  const MAP={comoe_dac:'comoe_xcodec'};const pts=T1.map(k=>{const s=S1[k];if(!s||s.folds.filter(f=>f.primary).length!==6)return null;const rk=MAP[k]||k;if(RG[rk]==null)return null;if(['trajectory_centred','two_member'].includes(k))return null;return{k,name:s.name,x:s.six_mean,y:RG[rk]};}).filter(Boolean);
  const pe=$('#figPlane');const W=720,H=330,L=56,R=16,TP=24,B=42;const xmin=-0.20,xmax=0.0,ymin=0,ymax=0.30;const xs=x=>L+(x-xmin)/(xmax-xmin)*(W-L-R),ys=y=>TP+(ymax-y)/(ymax-ymin)*(H-TP-B);

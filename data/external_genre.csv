@@ -1,0 +1,221 @@
+system,trainer,genre,tracks,carried_fpr
+three-support,artifactbench,Classical,617,0.2447325769854132
+three-support,artifactbench,Electronic,6210,0.0993558776167471
+three-support,artifactbench,Experimental,2246,0.0552092609082813
+three-support,artifactbench,Folk,1516,0.12532981530343
+three-support,artifactbench,Hip-Hop,2188,0.0539305301645338
+three-support,artifactbench,Instrumental,1349,0.1415863602668643
+three-support,artifactbench,International,1016,0.0807086614173228
+three-support,artifactbench,Jazz,382,0.1256544502617801
+three-support,artifactbench,Old-Time / Historic,507,0.029585798816568
+three-support,artifactbench,Pop,1127,0.0736468500443655
+three-support,artifactbench,Rock,6997,0.0322995569529798
+"single-support, one template",artifactbench,Classical,617,0.1604538087520259
+"single-support, one template",artifactbench,Electronic,6210,0.0576489533011272
+"single-support, one template",artifactbench,Experimental,2246,0.0356188780053428
+"single-support, one template",artifactbench,Folk,1516,0.0699208443271767
+"single-support, one template",artifactbench,Hip-Hop,2188,0.0237659963436928
+"single-support, one template",artifactbench,Instrumental,1349,0.1134173461823573
+"single-support, one template",artifactbench,International,1016,0.0561023622047244
+"single-support, one template",artifactbench,Jazz,382,0.094240837696335
+"single-support, one template",artifactbench,Old-Time / Historic,507,0.019723865877712
+"single-support, one template",artifactbench,Pop,1127,0.0470275066548358
+"single-support, one template",artifactbench,Rock,6997,0.025725310847506
+fingerprint,artifactbench,Classical,617,0.0842787682333873
+fingerprint,artifactbench,Electronic,6210,0.0616747181964573
+fingerprint,artifactbench,Experimental,2246,0.0672306322350845
+fingerprint,artifactbench,Folk,1516,0.0369393139841688
+fingerprint,artifactbench,Hip-Hop,2188,0.0388482632541133
+fingerprint,artifactbench,Instrumental,1349,0.0926612305411415
+fingerprint,artifactbench,International,1016,0.0413385826771653
+fingerprint,artifactbench,Jazz,382,0.0602094240837696
+fingerprint,artifactbench,Old-Time / Historic,507,0.1084812623274161
+fingerprint,artifactbench,Pop,1127,0.0479148181011535
+fingerprint,artifactbench,Rock,6997,0.0527368872373874
+attention pooling,artifactbench,Classical,617,0.4019448946515397
+attention pooling,artifactbench,Electronic,6210,0.2392914653784219
+attention pooling,artifactbench,Experimental,2246,0.1411398040961709
+attention pooling,artifactbench,Folk,1516,0.0534300791556728
+attention pooling,artifactbench,Hip-Hop,2188,0.1042047531992687
+attention pooling,artifactbench,Instrumental,1349,0.2060785767234988
+attention pooling,artifactbench,International,1016,0.2214566929133858
+attention pooling,artifactbench,Jazz,382,0.2198952879581152
+attention pooling,artifactbench,Old-Time / Historic,507,0.0769230769230769
+attention pooling,artifactbench,Pop,1127,0.0585625554569653
+attention pooling,artifactbench,Rock,6997,0.0407317421752179
+learned fusion,artifactbench,Classical,617,0.4230145867098865
+learned fusion,artifactbench,Electronic,6210,0.1776167471819645
+learned fusion,artifactbench,Experimental,2246,0.0756901157613535
+learned fusion,artifactbench,Folk,1516,0.091688654353562
+learned fusion,artifactbench,Hip-Hop,2188,0.0923217550274223
+learned fusion,artifactbench,Instrumental,1349,0.2164566345441067
+learned fusion,artifactbench,International,1016,0.1761811023622047
+learned fusion,artifactbench,Jazz,382,0.1963350785340314
+learned fusion,artifactbench,Old-Time / Historic,507,0.0631163708086785
+learned fusion,artifactbench,Pop,1127,0.0949423247559893
+learned fusion,artifactbench,Rock,6997,0.0332999857081606
+three-support,echoes,Classical,617,0.0032414910858995
+three-support,echoes,Electronic,6210,0.015780998389694
+three-support,echoes,Experimental,2246,0.0048975957257346
+three-support,echoes,Folk,1516,0.0006596306068601
+three-support,echoes,Hip-Hop,2188,0.0073126142595978
+three-support,echoes,Instrumental,1349,0.0103780578206078
+three-support,echoes,International,1016,0.0059055118110236
+three-support,echoes,Jazz,382,0.0052356020942408
+three-support,echoes,Old-Time / Historic,507,0.0059171597633136
+three-support,echoes,Pop,1127,0.0079858030168589
+three-support,echoes,Rock,6997,0.0014291839359725
+"single-support, one template",echoes,Classical,617,0.06645056726094
+"single-support, one template",echoes,Electronic,6210,0.0637681159420289
+"single-support, one template",echoes,Experimental,2246,0.0356188780053428
+"single-support, one template",echoes,Folk,1516,0.0395778364116095
+"single-support, one template",echoes,Hip-Hop,2188,0.0329067641681901
+"single-support, one template",echoes,Instrumental,1349,0.0756115641215715
+"single-support, one template",echoes,International,1016,0.0433070866141732
+"single-support, one template",echoes,Jazz,382,0.0445026178010471
+"single-support, one template",echoes,Old-Time / Historic,507,0.0374753451676528
+"single-support, one template",echoes,Pop,1127,0.0479148181011535
+"single-support, one template",echoes,Rock,6997,0.0181506359868515
+fingerprint,echoes,Classical,617,0.0372771474878444
+fingerprint,echoes,Electronic,6210,0.0285024154589371
+fingerprint,echoes,Experimental,2246,0.0307212822796081
+fingerprint,echoes,Folk,1516,0.0356200527704485
+fingerprint,echoes,Hip-Hop,2188,0.0420475319926873
+fingerprint,echoes,Instrumental,1349,0.0289103039288361
+fingerprint,echoes,International,1016,0.0364173228346456
+fingerprint,echoes,Jazz,382,0.0418848167539267
+fingerprint,echoes,Old-Time / Historic,507,0.1282051282051282
+fingerprint,echoes,Pop,1127,0.0159716060337178
+fingerprint,echoes,Rock,6997,0.0310132914106045
+attention pooling,echoes,Classical,617,0.366288492706645
+attention pooling,echoes,Electronic,6210,0.108695652173913
+attention pooling,echoes,Experimental,2246,0.242653606411398
+attention pooling,echoes,Folk,1516,0.1081794195250659
+attention pooling,echoes,Hip-Hop,2188,0.0818098720292504
+attention pooling,echoes,Instrumental,1349,0.2045959970348406
+attention pooling,echoes,International,1016,0.2322834645669291
+attention pooling,echoes,Jazz,382,0.2041884816753926
+attention pooling,echoes,Old-Time / Historic,507,0.4674556213017751
+attention pooling,echoes,Pop,1127,0.0789707187222715
+attention pooling,echoes,Rock,6997,0.0391596398456481
+learned fusion,echoes,Classical,617,0.0243111831442463
+learned fusion,echoes,Electronic,6210,0.0141706924315619
+learned fusion,echoes,Experimental,2246,0.0053428317008014
+learned fusion,echoes,Folk,1516,0.0026385224274406
+learned fusion,echoes,Hip-Hop,2188,0.0059414990859232
+learned fusion,echoes,Instrumental,1349,0.0126019273535952
+learned fusion,echoes,International,1016,0.0059055118110236
+learned fusion,echoes,Jazz,382,0.0052356020942408
+learned fusion,echoes,Old-Time / Historic,507,0.0059171597633136
+learned fusion,echoes,Pop,1127,0.0088731144631765
+learned fusion,echoes,Rock,6997,0.001143347148778
+three-support,sonics,Classical,617,0.186385737439222
+three-support,sonics,Electronic,6210,0.1069243156199677
+three-support,sonics,Experimental,2246,0.0814781834372217
+three-support,sonics,Folk,1516,0.1635883905013192
+three-support,sonics,Hip-Hop,2188,0.0914076782449725
+three-support,sonics,Instrumental,1349,0.1245366938472943
+three-support,sonics,International,1016,0.0856299212598425
+three-support,sonics,Jazz,382,0.1544502617801047
+three-support,sonics,Old-Time / Historic,507,0.039447731755424
+three-support,sonics,Pop,1127,0.1020408163265306
+three-support,sonics,Rock,6997,0.0704587680434472
+"single-support, one template",sonics,Classical,617,0.1345218800648298
+"single-support, one template",sonics,Electronic,6210,0.064573268921095
+"single-support, one template",sonics,Experimental,2246,0.0609973285841496
+"single-support, one template",sonics,Folk,1516,0.1490765171503957
+"single-support, one template",sonics,Hip-Hop,2188,0.0406764168190127
+"single-support, one template",sonics,Instrumental,1349,0.0941438102297998
+"single-support, one template",sonics,International,1016,0.0649606299212598
+"single-support, one template",sonics,Jazz,382,0.0811518324607329
+"single-support, one template",sonics,Old-Time / Historic,507,0.019723865877712
+"single-support, one template",sonics,Pop,1127,0.05678793256433
+"single-support, one template",sonics,Rock,6997,0.0534514792053737
+fingerprint,sonics,Classical,617,0.1993517017828201
+fingerprint,sonics,Electronic,6210,0.0066022544283413
+fingerprint,sonics,Experimental,2246,0.0235975066785396
+fingerprint,sonics,Folk,1516,0.0065963060686015
+fingerprint,sonics,Hip-Hop,2188,0.0036563071297989
+fingerprint,sonics,Instrumental,1349,0.0630096367679762
+fingerprint,sonics,International,1016,0.0029527559055118
+fingerprint,sonics,Jazz,382,0.0497382198952879
+fingerprint,sonics,Old-Time / Historic,507,0.2485207100591716
+fingerprint,sonics,Pop,1127,0.0008873114463176
+fingerprint,sonics,Rock,6997,0.0031442046591396
+attention pooling,sonics,Classical,617,0.2236628849270664
+attention pooling,sonics,Electronic,6210,0.0621578099838969
+attention pooling,sonics,Experimental,2246,0.1059661620658949
+attention pooling,sonics,Folk,1516,0.025065963060686
+attention pooling,sonics,Hip-Hop,2188,0.0310786106032906
+attention pooling,sonics,Instrumental,1349,0.0704225352112676
+attention pooling,sonics,International,1016,0.0659448818897637
+attention pooling,sonics,Jazz,382,0.0680628272251308
+attention pooling,sonics,Old-Time / Historic,507,0.2031558185404339
+attention pooling,sonics,Pop,1127,0.0461401952085181
+attention pooling,sonics,Rock,6997,0.1113334286122623
+learned fusion,sonics,Classical,617,0.3079416531604538
+learned fusion,sonics,Electronic,6210,0.0892109500805153
+learned fusion,sonics,Experimental,2246,0.0983971504897595
+learned fusion,sonics,Folk,1516,0.0527704485488126
+learned fusion,sonics,Hip-Hop,2188,0.059872029250457
+learned fusion,sonics,Instrumental,1349,0.0985915492957746
+learned fusion,sonics,International,1016,0.077755905511811
+learned fusion,sonics,Jazz,382,0.1151832460732984
+learned fusion,sonics,Old-Time / Historic,507,0.2169625246548323
+learned fusion,sonics,Pop,1127,0.0629991126885536
+learned fusion,sonics,Rock,6997,0.1106188366442761
+three-support,fakemusiccaps,Classical,617,0.0307941653160453
+three-support,fakemusiccaps,Electronic,6210,0.1347826086956521
+three-support,fakemusiccaps,Experimental,2246,0.0578806767586821
+three-support,fakemusiccaps,Folk,1516,0.0230870712401055
+three-support,fakemusiccaps,Hip-Hop,2188,0.1220292504570383
+three-support,fakemusiccaps,Instrumental,1349,0.0763528539659006
+three-support,fakemusiccaps,International,1016,0.0521653543307086
+three-support,fakemusiccaps,Jazz,382,0.0654450261780104
+three-support,fakemusiccaps,Old-Time / Historic,507,0.0315581854043392
+three-support,fakemusiccaps,Pop,1127,0.0834072759538598
+three-support,fakemusiccaps,Rock,6997,0.0443047020151493
+"single-support, one template",fakemusiccaps,Classical,617,0.0583468395461912
+"single-support, one template",fakemusiccaps,Electronic,6210,0.1190016103059581
+"single-support, one template",fakemusiccaps,Experimental,2246,0.064113980409617
+"single-support, one template",fakemusiccaps,Folk,1516,0.0738786279683377
+"single-support, one template",fakemusiccaps,Hip-Hop,2188,0.1074040219378427
+"single-support, one template",fakemusiccaps,Instrumental,1349,0.0830244625648628
+"single-support, one template",fakemusiccaps,International,1016,0.062007874015748
+"single-support, one template",fakemusiccaps,Jazz,382,0.0811518324607329
+"single-support, one template",fakemusiccaps,Old-Time / Historic,507,0.0512820512820512
+"single-support, one template",fakemusiccaps,Pop,1127,0.1002661934338953
+"single-support, one template",fakemusiccaps,Rock,6997,0.0633128483635843
+fingerprint,fakemusiccaps,Classical,617,0.0388978930307941
+fingerprint,fakemusiccaps,Electronic,6210,0.0586151368760064
+fingerprint,fakemusiccaps,Experimental,2246,0.0503116651825467
+fingerprint,fakemusiccaps,Folk,1516,0.0435356200527704
+fingerprint,fakemusiccaps,Hip-Hop,2188,0.0516453382084095
+fingerprint,fakemusiccaps,Instrumental,1349,0.0511489992587101
+fingerprint,fakemusiccaps,International,1016,0.0344488188976378
+fingerprint,fakemusiccaps,Jazz,382,0.06282722513089
+fingerprint,fakemusiccaps,Old-Time / Historic,507,0.0236686390532544
+fingerprint,fakemusiccaps,Pop,1127,0.0470275066548358
+fingerprint,fakemusiccaps,Rock,6997,0.041875089323996
+attention pooling,fakemusiccaps,Classical,617,0.0453808752025931
+attention pooling,fakemusiccaps,Electronic,6210,0.0988727858293075
+attention pooling,fakemusiccaps,Experimental,2246,0.2698130008904719
+attention pooling,fakemusiccaps,Folk,1516,0.0290237467018469
+attention pooling,fakemusiccaps,Hip-Hop,2188,0.0187385740402193
+attention pooling,fakemusiccaps,Instrumental,1349,0.1163825055596738
+attention pooling,fakemusiccaps,International,1016,0.046259842519685
+attention pooling,fakemusiccaps,Jazz,382,0.1178010471204188
+attention pooling,fakemusiccaps,Old-Time / Historic,507,0.1597633136094674
+attention pooling,fakemusiccaps,Pop,1127,0.0461401952085181
+attention pooling,fakemusiccaps,Rock,6997,0.0625982563955981
+learned fusion,fakemusiccaps,Classical,617,0.0340356564019448
+learned fusion,fakemusiccaps,Electronic,6210,0.1465378421900161
+learned fusion,fakemusiccaps,Experimental,2246,0.2150489759572573
+learned fusion,fakemusiccaps,Folk,1516,0.0283641160949868
+learned fusion,fakemusiccaps,Hip-Hop,2188,0.0562157221206581
+learned fusion,fakemusiccaps,Instrumental,1349,0.1297257227575982
+learned fusion,fakemusiccaps,International,1016,0.0698818897637795
+learned fusion,fakemusiccaps,Jazz,382,0.1335078534031413
+learned fusion,fakemusiccaps,Old-Time / Historic,507,0.1972386587771203
+learned fusion,fakemusiccaps,Pop,1127,0.0629991126885536
+learned fusion,fakemusiccaps,Rock,6997,0.0604544804916392
